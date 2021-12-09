@@ -69,7 +69,7 @@ func (amqp *Amqp) Publish(options PublishOptions) error {
 		options.Mandatory,
 		options.Immediate,
 		amqpDriver.Publishing{
-			ContentType: "text/plain",
+			ContentType: "application/json",
 			Body:        []byte(options.Body),
 		},
 	)
