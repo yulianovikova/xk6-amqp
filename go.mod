@@ -1,6 +1,6 @@
 module github.com/yulianovikova/xk6-amqp
 
-go 1.15
+go 1.17
 
 require (
 	github.com/streadway/amqp v1.0.0
